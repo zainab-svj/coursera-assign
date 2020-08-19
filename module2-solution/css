@@ -1,1 +1,76 @@
+		*{
+			box-sizing: border-box;
+		}
+	h1{
+		text-align: center;
+		
+	}
+	div.col-4{
+		float: left;
+		width:31%;
+		
+		padding: 10px;
+		margin: 10px;
+		height:200px;
+		border:1px solid black;
+		border-style: solid;
+		background-color: #aaa;
+		column-gap: 40px;
+
+	}
+	h4
+	{
+		font-size: 150%;
+		
+		
+		background-color: #ffff;
+		border-left: solid;	
+		border-bottom: solid;
+		display: block;	
+	
+		float: right;
+		clear: both;
+	}
+	p{
+		position: absolute;
+		clear: both;
+	}
+	#c1{
+		background-color: lightblue;
+
+	}
+	#b1{
+		background-color: green;
+
+	}
+	#m1{
+		background-color: red;
+	}
+	@media screen and (max-width: 992px) {
+
+        div.col-4 {
+        	width: 31%;
+        }
+    }
+	
+  
+  @media screen and (max-width: 768px) and (max-width: 991px) {
+  	.col-4{
+  		width: 75%;
+  		height: 75%;
+  	}
+  	div.col-4.highlight
+  	{
+  		width: 100%
+
+  	}
+  }
+  @media screen and (max-width: 767px) {
+
+        div.col-4 {
+        	width: 100%;
+        }
+    }
+}
+
 
